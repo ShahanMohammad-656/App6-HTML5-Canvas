@@ -85,6 +85,35 @@ console.log("This file last modified " + docMod); // generates message in javaSc
 
 
 <!--now we must define all functions-->
+<script>
+//RECTANGLE
+function draw_b() {
+        var b_canvas = document.getElementById("myCanvas");
+        var b_context = b_canvas.getContext("2d");
+        b_context.fillRect(100,5,130,80); //dimensions of rectangle
+}
+
+//NAME
+function draw_c() {
+        var c_canvas = document.getElementById("myCanvas");
+        var c_context = c_canvas.getContext("2d");
+        c_context.fillText("shahan mohammad",10, 50); //display of name and dimensions
+}
+
+//IMAGE
+function draw_d() {
+        var d_canvas = document.getElementById("myCanvas");
+        var d_context = d_canvas.getContext("2d");
+        var d_arrow = document.getElementById("arrow"); //identifies image
+        d_context.drawImage(arrow, 100, 100, 150, 90); //dimensions of image
+}
+
+//RESET
+function draw_e() {
+        var e_canvas = document.getElementById("myCanvas");
+        e_canvas.width = e_canvas.width;
+};
+</script>
 
 
 	
