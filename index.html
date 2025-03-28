@@ -97,15 +97,14 @@ function draw_b() {
 function draw_c() {
         var c_canvas = document.getElementById("myCanvas");
         var c_context = c_canvas.getContext("2d");
-        c_context.fillText("shahan mohammad",10, 50); //display of name and dimensions
-}
+        c_context.fillText("shahan mohammad",10, 50); //display name
 
 //IMAGE
 function draw_d() {
         var d_canvas = document.getElementById("myCanvas");
         var d_context = d_canvas.getContext("2d");
-        var d_arrow = document.getElementById("arrow"); //identifies image
-        d_context.drawImage(arrow, 100, 100, 150, 90); //dimensions of image
+        var d_arrow = document.getElementById("smile"); //identifies image
+        d_context.drawImage(arrow, 100, 100, 150, 90); //dimensions image
 }
 
 //RESET
